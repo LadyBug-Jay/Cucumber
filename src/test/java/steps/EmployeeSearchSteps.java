@@ -18,7 +18,7 @@ public class EmployeeSearchSteps extends CommonMethods {
     public void user_enter_valid_employee_id() {
         //    WebElement empIdField = driver.findElement(By.id("empsearch_id"));
         //    sendText(empIdField, "45154A");
-        // sendText(empIdField, ConfigReader.getPropertyValue("empId"));
+        //sendText(empIdField, ConfigReader.getPropertyValue("empId"));
         sendText(employeeList.empSearchIdField, "45154A");
     }
 

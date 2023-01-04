@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
         glue = "steps",
         //When you set dry run to true, it stops actual execution
         //it will quickly scan all the gherkin steps whether they are implemented or not and give the missing step definition
-        dryRun = true,
+        dryRun = false,
         //when we set dry run to false, it starts execution again
-        tags = "@sprint3",
+        tags = "@sprint1",
         //to remove irrelevant information from console you need to set monochrome to true
         monochrome = true,
         //pretty key word prints the steps in the console to increase readability

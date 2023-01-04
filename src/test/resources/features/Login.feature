@@ -1,6 +1,6 @@
 Feature: Login functionality
 
-  @sprint3 @regression @tc1101
+  @sprint1 @regression @tc1101
   Scenario: Valid admin login
     #Given user is navigated to HRMS application
     When user enters valid username and valid password
